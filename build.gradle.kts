@@ -4,18 +4,18 @@ plugins {
     id("net.labymod.gradle.addon")
 }
 
-group = "org.example"
+group = "org.atirionstudios"
 version = "1.0.0"
 
 java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 
 labyMod {
-    defaultPackageName = "org.example" //change this to your main package name (used by all modules)
+    defaultPackageName = "de.atirionstudios" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "example"
-        displayName = "ExampleAddon"
-        author = "Example Author"
-        description = "Example Description"
+        namespace = "atirionstudios"
+        displayName = "Motion Blur"
+        author = "Atirion Studios"
+        description = "Adds a motion blur shader to Minecraft!"
         minecraftVersion = "*"
         version = System.getenv().getOrDefault("VERSION", "0.0.1")
     }
