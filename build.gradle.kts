@@ -12,10 +12,10 @@ java.toolchain.languageVersion.set(JavaLanguageVersion.of(17))
 labyMod {
     defaultPackageName = "de.atirionstudios" //change this to your main package name (used by all modules)
     addonInfo {
-        namespace = "atirionstudios"
-        displayName = "Motion Blur"
+        namespace = "soundplayer"
+        displayName = "Sound Player"
         author = "Atirion Studios"
-        description = "Adds a motion blur shader to Minecraft!"
+        description = "Play all Minecraft Sounds."
         minecraftVersion = "*"
         version = System.getenv().getOrDefault("VERSION", "0.0.1")
     }

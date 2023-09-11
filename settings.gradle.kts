@@ -1,4 +1,4 @@
-rootProject.name = "motionblur-labymodaddon"
+rootProject.name = "soundplayer-labymodaddon"
 
 pluginManagement {
     val labyGradlePluginVersion = "0.3.28"
